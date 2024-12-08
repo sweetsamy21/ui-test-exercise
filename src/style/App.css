@@ -1,0 +1,74 @@
+input {
+  border: none;
+  background: #fff !important; 
+}
+
+.container {
+  width: 800px;
+}
+.formContainer {
+  border: 1px solid #ccc;
+  /* padding: 10px; */
+  .formRow{
+    border-bottom: 1px solid #ccc;
+    div > div::before {
+      border-bottom: 0px !important;
+    }
+    label {
+      padding-left: 15px;;
+    }
+  }
+  .colRight {
+    border-left: 1px solid #ccc;
+    background: #f5f7fd;
+    text-align: center;
+  }
+}
+
+.previewImage {
+  img {
+    width: 100%;
+  }
+}
+
+.padL0 {
+  padding-left: 0px !important;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+
+.subHeader {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.submitBtn, .submitBtn:hover, .submitBtn:active, .submitBtn:focus {
+  background: #00a39e;
+    border-radius: 0px;
+    font-weight: 700;
+    font-size: 16px;
+    width: 200px;
+    padding: 10px;
+    margin-left: -15px;
+    margin-top: 20px;
+}
+
+.errorMsg {
+  color: red;
+  margin-left: -15px;
+  padding-top: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
